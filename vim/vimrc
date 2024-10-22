@@ -24,19 +24,29 @@ set wildmenu
 " wildmenu ignore list
 set wildignore=*.docx,*.xlsx,*.jpg,*.png,*.gif,*.pdf,*.exe,*.img
 
+" limit textwidth to 80
+set textwidth=79
+
+" show numbers 
 set number
 set numberwidth=4
 
+" show where my cursor is
 set cursorline
 
 set tabstop=2
 set shiftwidth=2
-
+set softtabstop=2
 set expandtab
+set autoindent
+set smartindent
+set smarttab
 
+" search options
 set hlsearch
 set incsearch
 
 set showmatch
 
+" encoding options
 set encoding=utf8
