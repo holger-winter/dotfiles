@@ -1,0 +1,22 @@
+syntax enable
+let g:dracula_colorterm=0
+colorscheme dracula
+" set t_Co=256
+" set termguicolors
+
+set number
+set numberwidth=4
+
+set cursorline
+
+set tabstop=2
+set shiftwidth=2
+
+set expandtab
+
+set hlsearch
+set incsearch
+
+set showmatch
+
+set encoding=utf8
