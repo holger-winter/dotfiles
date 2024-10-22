@@ -6,6 +6,24 @@ colorscheme dracula
 set t_Co=256
 set termguicolors
 
+" disable compatibility with vi which can cause unexpected issues
+set nocompatible
+
+" enable type file detection
+filetype on
+
+" enable plugins and load plugin for the detected file type
+filetype plugin on
+
+" load an indent file for the detected file type
+filetype indent on
+
+" enable auto completion menu after pressing tab
+set wildmenu
+
+" wildmenu ignore list
+set wildignore=*.docx,*.xlsx,*.jpg,*.png,*.gif,*.pdf,*.exe,*.img
+
 set number
 set numberwidth=4
 
