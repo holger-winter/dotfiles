@@ -1,0 +1,10 @@
+[alias]
+  d = diff
+  dc = diff --cached
+  s = status
+
+[init]
+	defaultBranch = main
+
+[include]
+  path = ~/.gitconfig_local
