@@ -68,7 +68,7 @@ command! Q q
 set laststatus=2
 set noshowmode
 let g:lightline = {
-      \ 'colorscheme': 'catppuccin_macchiato',
+      \ 'colorscheme': 'catppuccin_frappe',
       \ 'separator': { 'left': "\ue0b0", 'right': "\ue0b2" },
       \ 'subseparator': { 'left': "\ue0b1", 'right': "\ue0b3" },
       \ }
