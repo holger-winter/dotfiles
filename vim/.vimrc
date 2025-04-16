@@ -12,6 +12,9 @@ set encoding=utf-8
 set number
 set cursorline
 
+set wildmenu
+set wildoptions=pum,tagfile
+
 " -----------------------------------------------
 " Text Formatting
 " -----------------------------------------------
