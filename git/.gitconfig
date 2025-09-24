@@ -1,4 +1,9 @@
 [init]
-	defaultBranch = main
+    defaultBranch = main
+
+[alias]
+    s = status
+    l = log --oneline --graph
+
 [include]
-	path = ~/.gitconfig.local
+    path = ~/.gitconfig.local
