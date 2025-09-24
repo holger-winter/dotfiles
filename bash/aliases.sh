@@ -15,4 +15,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 
+# trying bat as an alternative to cat for now
+alias cat='batcat -p'
+
 alias reload='source ~/.bashrc'
