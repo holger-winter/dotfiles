@@ -18,3 +18,13 @@ Finally trying to manage my configuration files in a clean and simple way. Start
 This is what the current setup looks like:
 
 ![Screenshot 2025-09-24](screenshots/2025-09-24.png)
+
+## Notes
+
+Themes in eza will only work in versions >= 0.19.0. For Ubuntu we can install the latest version with this:
+
+```
+wget -qO eza.tar.gz https://github.com/eza-community/eza/releases/latest/download/eza_x86_64-unknown-linux-gnu.tar.gz
+sudo tar xf eza.tar.gz --strip-components=1 -C /usr/local/bin
+rm -rf eza.tar.gz
+```
