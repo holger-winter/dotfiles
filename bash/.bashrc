@@ -52,3 +52,8 @@ esac
 
 # starship
 eval "$(starship init bash)"
+
+# eza
+unset LS_COLORS
+unset EZA_COLORS
+export EZA_CONFIG_DIR="$HOME/.config/eza"
