@@ -17,7 +17,7 @@ Finally trying to manage my configuration files in a clean and simple way. Start
 
 This is what the current setup looks like:
 
-![Screenshot 2025-09-24](screenshots/2025-09-24.png)
+![Screenshot 2025-09-30](screenshots/2025-09-30.png)
 
 ## Notes
 
