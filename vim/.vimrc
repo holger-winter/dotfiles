@@ -18,3 +18,10 @@ set termguicolors
 
 " https://github.com/catppuccin/vim
 colorscheme catppuccin_mocha
+
+" transparent background
+autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+
+" search
+set hlsearch
+set incsearch
